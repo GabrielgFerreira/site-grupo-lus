@@ -315,3 +315,19 @@ ul.social-media a:hover {
 .padding-cards {
   padding: 25px;
 }
+
+.alturaSectionIntermediaria {
+  height: 250px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.h2sectionIntermediaria {
+  position: relative;
+  bottom: 30px;
+}
+
+.iconPosition {
+  position: relative;
+  bottom: 30px;
+}
+
