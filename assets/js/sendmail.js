@@ -23,10 +23,11 @@ function sendMail (e) {
             To: "gabrielcorporativo1997@gmail.com",
             From: "gabriel.luscontabilidade@gmail.com",
             Subject: `${name} entrou em contato pelo site`,
-            Body: `<strong>Email:</strong> ${mail} <br><br> <strong>Telefone:</strong ${number} <br><br><strong>Mensagem:</strong> ${message}`,
+            Body: `<strong>Email:</strong> ${mail} <br><br> <strong>Telefone:</strong> ${number} <br><br> <strong>Mensagem:</strong> ${message}  `,
           }).then(() => {
             // Após o envio bem-sucedido, exibe um alerta informando que a mensagem foi enviada
-            alert('Mensagem enviada! \nEm breve um especialista entrará em contato');
+            alert('Mensagem enviada! \nEm breve um especialista entrará em contato' );
+            
             // E recarrega a página, para limpar os campos e permitir que o usuário envie mais e-mails.
             location.reload();
           });
