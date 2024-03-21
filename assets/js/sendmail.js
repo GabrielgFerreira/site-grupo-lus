@@ -26,7 +26,7 @@ function sendMail (e) {
             Body: `<strong>Email:</strong> ${mail} <br><br> <strong>Telefone:</strong ${number} <br><br><strong>Mensagem:</strong> ${message}`,
           }).then(() => {
             // Após o envio bem-sucedido, exibe um alerta informando que a mensagem foi enviada
-            alert('Mensagem enviada!');
+            alert('Mensagem enviada! \nEm breve um especialista entrará em contato');
             // E recarrega a página, para limpar os campos e permitir que o usuário envie mais e-mails.
             location.reload();
           });
