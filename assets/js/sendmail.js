@@ -13,7 +13,7 @@ function sendMail (e) {
     const number = document.getElementById('telefone').value
 
     // Verifica se todos os campos (e-mail, mensagem e nome) foram preenchidos pelo usuário.
-    if (mail && message && name) {
+    if (mail && number && message && name) {
         // Se todos os campos estiverem preenchidos, usa a biblioteca 'Email.js'
         // para enviar o e-mail com os detalhes fornecidos pelo usuário.
         Email.send({
@@ -22,8 +22,8 @@ function sendMail (e) {
             Password: "241F5937936C571D226301283001152DA4AF",
             To: "gabrielcorporativo1997@gmail.com",
             From: "gabriel.luscontabilidade@gmail.com",
-            Subject: `${name} Entrou em contato pelo site`,
-            Body: `Email: ${mail} <br><br> Telefone: ${number} <br><br>Mensagem: ${message}`,
+            Subject: `${name} entrou em contato pelo site`,
+            Body: `<strong>Email:</strong> ${mail} <br><br> <strong>Telefone:</strong ${number} <br><br><strong>Mensagem:</strong> ${message}`,
           }).then(() => {
             // Após o envio bem-sucedido, exibe um alerta informando que a mensagem foi enviada
             alert('Mensagem enviada!');
