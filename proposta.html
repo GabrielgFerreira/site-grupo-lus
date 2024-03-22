@@ -75,9 +75,9 @@
       <div class="collapse navbar-collapse" id="navbar-menu" >
         <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
 
-          <li class="dropdown"><a href="index.html" class="dropdown-toggle" data-toggle="dropdown" >Home</a>
+          <li><a href="index.html">Home</a>
 
-            <li class="dropdown"><a href="sobre.html" class="dropdown-toggle" data-toggle="dropdown">Sobre</a>
+            <li><a href="sobre.html">Sobre</a>
             
           </li>
 
@@ -111,17 +111,17 @@
             </ul>
           </li>
 
-          <li class="dropdown"><a href="https://grupolus.com.br/blog" target="_blank" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+          <li><a href="https://grupolus.com.br/blog" target="_blank">Blog</a>
             
           </li>
           
           
 
-          <li class="dropdown"> <a href="proposta.html" class="dropdown-toggle" data-toggle="dropdown">Fale Conosco</a>
+          <li> <a href="proposta.html">Fale Conosco</a>
             
           </li>
 
-          <li class="botaoProposta dropdown"><a href="proposta.html" class="btn btn-lg btn-dark-outline btn-circle margin-left-auto margin-right-auto display-table-sm">Solicitar Proposta</a></li>
+          <li class="botaoProposta"><a href="proposta.html" class="btn btn-lg btn-dark-outline btn-circle margin-left-auto margin-right-auto display-table-sm">Solicitar Proposta</a></li>
           
         </ul>
       </div>
@@ -147,66 +147,66 @@
   
 
     <!--== Contact Start ==-->
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 section-heading">
-            <h2 class="mt-0 font-700">Solicite sua <span class="gradient-color">proposta</span></h2>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 section-heading">
+              <h2 class="mt-0 font-700">Solicite sua <span class="gradient-color">proposta</span></h2>
+          </div>
         </div>
-      </div>
-      <div class="row mt-50">
-        <div class="col-sm-6 col-md-6 centerize-col">
-          <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-01">
-            <div class="messages"></div>
-            <div class="row">
-              <div class="col-md-6 col-sm-6">
-                <div class="form-group">
-                  <label class="sr-only" for="name">Seu nome</label>
-
-                  <input type="text" name="name" class="md-input" id="nome" placeholder="Seu nome" required data-error="Nome requerido">
-                  <div class="help-block with-errors"></div>
-
+        <div class="row mt-50">
+          <div class="col-sm-6 col-md-6 centerize-col">
+            <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-01">
+              <div class="messages"></div>
+              <div class="row">
+                <div class="col-md-6 col-sm-6">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Seu nome</label>
+  
+                    <input type="text" name="name" class="md-input" id="nome" placeholder="Seu nome" required data-error="Nome requerido">
+                    <div class="help-block with-errors"></div>
+  
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Seu Email</label>
+                    
+                    <input type="email" name="email" class="md-input" id="email" placeholder="Seu Email" required data-error="Por favor, use um email válido.">
+                    
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+  
+                    <label class="sr-only" for="tel">Telefone</label>
+  
+                    
+                    <input type="tel" name="tel" class="md-input" id="telefone" placeholder="Digite seu número">
+                 
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+                    <label class="sr-only" for="message">Mensagem</label>
+                    <textarea name="message" class="md-textarea" id="mensagem" rows="7" placeholder="Mensagem" required data-error="Por favor nos deixe uma mensagem"></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="text-center mt-10">
+                    <button id="emailButton" type="submit" name="submit" class="btn btn-color btn-lg btn-square remove-margin">Solicitar Proposta</button>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-6 col-sm-6">
-                <div class="form-group">
-                  <label class="sr-only" for="email">Seu Email</label>
-                  
-                  <input type="email" name="email" class="md-input" id="email" placeholder="Seu Email" required data-error="Por favor, use um email válido.">
-                  
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-12 col-sm-12">
-                <div class="form-group">
-
-                  <label class="sr-only" for="tel">Telefone</label>
-
-                  
-                  <input type="tel" name="tel" class="md-input" id="telefone" placeholder="Digite seu número">
-               
-                </div>
-              </div>
-              <div class="col-md-12 col-sm-12">
-                <div class="form-group">
-                  <label class="sr-only" for="message">Mensagem</label>
-                  <textarea name="message" class="md-textarea" id="mensagem" rows="7" placeholder="Mensagem" required data-error="Por favor nos deixe uma mensagem"></textarea>
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-12 col-sm-12">
-                <div class="text-center mt-10">
-                  <button id="emailButton" type="submit" name="submit" class="btn btn-color btn-lg btn-square remove-margin">Solicitar Proposta</button>
-                </div>
-              </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
+  
       </div>
-
-    </div>
-  </section>
-  <!--== Contact End ==-->
+    </section>
+    <!--== Contact End ==-->
 
   
   <!--== Contact Info Start ==-->
