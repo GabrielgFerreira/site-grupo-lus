@@ -12,7 +12,7 @@
 }
 
 .liDados {
-  padding: 0 20px;
+  padding: 5px 20px;
   margin-right: 15px;
   border-radius: 15px;
   background-color: #ffcf04;
@@ -237,6 +237,8 @@
   .colunaFooter ul li {
     margin-bottom: 3px;
   }
+
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -254,12 +256,36 @@
     bottom: 20px;
     right: 55px;
   }
-
-
   .posicao-redes-sociais {
     text-align: center; /* Centraliza as redes sociais */
 
   }
+  #olDados {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .liDados {
+    padding: 5px 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #ffcf04;
+    color: black;
+  }
+
+  .copyright-position {
+    display: none;
+  }
+
+  .ulPosition {
+    margin: auto;
+  }
+
+ #menuColuna {
+  margin-top: 25px;
+ }
+
 }
 
 /* Media screen para dispositivos médios */
@@ -269,7 +295,22 @@
     justify-content: space-between;
     align-items: center;
   }
+  #olDados {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .liDados {
+    padding: 5px 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #ffcf04;
+    color: black;
+  }
 
+
+  
 }
 
 .borderRed {
